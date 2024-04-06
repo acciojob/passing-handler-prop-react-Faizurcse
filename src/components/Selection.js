@@ -38,7 +38,7 @@ function Selection({ col, t }) {
         }}
       >
         <div
-          data-testid={cc1.colourConfigs}
+          data-test-id={cc1.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
@@ -52,7 +52,7 @@ function Selection({ col, t }) {
           Slection
         </div>
         <div
-          data-testid={cc2.colourConfigs}
+          data-test-id={cc2.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
@@ -67,7 +67,7 @@ function Selection({ col, t }) {
           Slection
         </div>
         <div
-          data-testid={cc3.colourConfigs}
+          data-test-id={cc3.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
