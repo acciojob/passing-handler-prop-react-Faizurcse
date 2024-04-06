@@ -44,3 +44,5 @@ const title = 'Select the gradient and then the Box to change the color';
 
 
 export default App;
+
+App.js
