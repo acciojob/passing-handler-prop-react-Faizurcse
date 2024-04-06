@@ -7,7 +7,7 @@ function Selection({ col, t }) {
  
 
   function kk1(e) {
-    
+    console.log(e.target)
     setCc1((cols)=>{
        
         return {...cols,['colourConfigs']:t,['color1']:col}
@@ -38,7 +38,7 @@ function Selection({ col, t }) {
         }}
       >
         <div
-          data-test-id={cc1.colourConfigs}
+          data-testid={cc1.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
@@ -49,10 +49,10 @@ function Selection({ col, t }) {
           }}
           onClick={(e) => kk1(e)}
         >
-          Slection
+          
         </div>
         <div
-          data-test-id={cc2.colourConfigs}
+          data-testid={cc2.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
@@ -64,10 +64,10 @@ function Selection({ col, t }) {
           }}
           onClick={() => kk2()}
         >
-          Slection
+          
         </div>
         <div
-          data-test-id={cc3.colourConfigs}
+          data-testid={cc3.colourConfigs}
           className="fix-box"
           style={{
             width: "200px",
@@ -79,7 +79,7 @@ function Selection({ col, t }) {
           }}
           onClick={() => kk3()}
         >
-          Slection
+          
         </div>
         {/* {colourConfig.map((e)=><div data-testid={cc3} key={e.key} className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',marginLeft:'5px',backgroundColor:cc3}} onClick={()=>{kk3(e.key)}}>Slection</div>)} */}
       </div>
