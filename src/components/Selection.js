@@ -19,9 +19,9 @@ function kk3(){
     return(
         <>
         <div className="fix-box" style={{display:'flex',justifyContent:'center',alignItems:'center',width:"100%",height:'700px'}}>
-            <div className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',backgroundColor:cc1}} onClick={()=>kk1()}>Slection</div>
-            <div className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',marginLeft:'5px',backgroundColor:cc2}} onClick={()=>kk2()}>Slection</div>
-            <div className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',marginLeft:'5px',backgroundColor:cc3}} onClick={()=>kk3()}>Slection</div>
+            <div data-testid={col} className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',backgroundColor:cc1}} onClick={()=>kk1()}>Slection</div>
+            <div data-testid={col} className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',marginLeft:'5px',backgroundColor:cc2}} onClick={()=>kk2()}>Slection</div>
+            <div data-testid={col}  className ="fix-box" style={{width:'200px',height:'200px',border:'1px solid black',textAlign:'center',marginLeft:'5px',backgroundColor:cc3}} onClick={()=>kk3()}>Slection</div>
         </div>
         </>
     )
