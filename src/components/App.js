@@ -28,16 +28,20 @@ const title = 'Select the gradient and then the Box to change the color';
 
  const App = () => {
   const [col,setCol] = useState()
-  function color(color){
+
+  const[t,setT] = useState()
+
+  function color(color,k){
     setCol(color)
-    console.log(color)
+    setT(k)
+    console.log(color,k)
   }
   
 
  return (
     <div>
       <ColourSelector colourConfig={colourConfig}  color={color}/>
-      <Selection col={col}/>
+      <Selection col={col} t={t} colourConfig={colourConfig}/>
     </div>
   )
 }
