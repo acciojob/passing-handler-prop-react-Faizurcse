@@ -6,13 +6,13 @@
     border-radius: 5px;
 }
 
-#master{
+#master {
     border-radius: 5px;
     border: 2px white ridge;
     width: 100%;
 }
 
-.subheading{
+.subheading {
     color: white;
     text-align: center;
 }
